@@ -6,54 +6,53 @@
 </head>
 <body>
 <h1> Matheus Augusto Pereira</h1>
-
-    </div>
-       
-
-    <section id="Sobre" class="hero">
-        <div class="hero-content" style="margin-top: -50px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                <h2>Sobre mim</h2>
+<section id="Sobre" class="Sobremim">
+        <div class="Sobremim1" style="margin-top: -50px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+             <h2>Sobre mim</h2>
                 <p>
                     Meu nome é matheus, tenho 23 anos e sou natural de São Francisco do Sul,<br>
-                    sou apaixonado por técnologia e por isso inicei a faculdade de engenharia de software,<br>
-                    para poder seguir a area que amo.
+                    sou apaixonado por técnologia e por isso decidi aprender a programar.<br>
+                    Para isso iniciei os estudos na uninter para ter uma base
                 </p>
-        </div>
-        <div class="botao cta-small">
-            <a class="cta-button cta-small" target="_blank" data-i18n="Agende sua Tatuagem">Agende sua Tatuagem</a>
-        </div>
-    </section>    
-    <div id="botton">
-        <button id="botao">Clique Aqui</button>
+        <div id="botton">
+            <button id="botao">Clique Aqui</button>
+            <p id="mensagem"></p>
     </div>
-    <h3>Esses são alguns de meus Hobbies</h3>
-        <div class="Hobbies"id="Hobbies"></div>
+    </div>
+</section>    
+    <div class="Hobbies"id="Hobbies";  style="margin: top 50px; text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+        <h3>Esses são alguns de meus Hobbies</h3>
             <li>Jogar em meu Computador</li><br>
             <li>Viajar de moto</li><br>
             <li>Assistir filmes novos</li>
-            <img class="foto1" src="img/Game.jpeg" >
-        </div>
-        
-    <div id="Lugares">
-        <h4> Lugares que desejo visitar um quando tiver a oportunidade</h4>
-    </div>
-    <table> 
+            <img  src="img/Game.jpeg"> 
+    </div><br>
+        <h4> Lugares que desejo visitar quando tiver a oportunidade</h4>
+        <table> 
         <tr>
-           <td id="Canada">Canada</td>                                                              
-            <td> <img id="Canada" src="img/canada.jpg" width="250" height="250"></td>
+           <td>Canada</td>                                                              
+            <td> <img src="img/canada.jpg" width="250" height="250"> </td>
         </tr>
         <tr>
-            <td id="Grecia">Grécia</td>
-            <td> <img id="Grecia" src="img/Grécia.jpg" width="250" height="250"></td>
+            <td>Grécia</td>
+            <td> <img src="img/Grécia.jpg" width="250" height="250"></td>
         </tr>
         <tr>
-            <td id="vaticano">Vaticano</td>
-            <td> <img id="vaticano"  src="img/Vaticano.jpg" width="250" height="250"></td>
+            <td>Vaticano</td>
+            <td><img src="img/Vaticano.jpg" width="250" height="250"></td>
         </tr>
-
-    </table>
+    </table><br>
     </div>
     </div>
-    Link de minha recomendação 
+    <h5>Artigo que recomendo sobre IA nos jogos</h5>
+    <a href="https://ideiasvirtuais.com/2024/11/13/ia-nos-games-5-jogos-que-usam-inteligencia-artificial-de-forma-revolucionaria/"> Segue o link</a>
 </body>
+<script>
+    const botao = document.querySelector('#botao');
+    const mensa = document.querySelector('#mensagem');
+    botao.addEventListener('click', textoT);
+    function textoT() {
+        mensa.innerHTML = "bem vindo a minha pagina"
+    }
+</script>
 </html>
