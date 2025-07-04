@@ -1,0 +1,91 @@
+/* Estilo Geral */
+
+body{
+    background-image: linear-gradient(rgba(185, 255, 182, 0.7), rgb(20, 132, 160), rgb(165, 204, 59));
+        
+}
+
+
+h1{
+    background-color: rgb(29, 44, 73);
+    height: 50;
+    width: 50;
+   border-style: solid;
+   border-width: 10px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+   text-align: center;
+   border-color: blueviolet;
+   color:aliceblue;
+   margin: 0;
+   padding: 0;
+   font-style: italic;
+   font-size: 50px;
+}
+  
+h2{
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+#Sobre {
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+#botao{
+text-align: center;
+position: relative;
+
+}
+ li {
+     text-align: center;
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+ }
+   
+.foto1 {
+    padding: 35%;
+    margin: -5px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position: center;
+   border-radius: 50px;
+       
+}
+
+#Lugares {
+
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+#Canada{
+    font-size: 30px;
+   text-align: justify;
+}
+
+#Grecia{ 
+   font-size: 30px;
+   text-align: justify;
+
+}
+
+#vaticano {
+    font-size: 30px;
+    text-align: justify;
+
+}
+
